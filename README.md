@@ -5,6 +5,47 @@
 **Pilot project** built as a portfolio piece for an AI Assistant Product Manager application (B2B marketplace context).
 **Live demo:** _add your Streamlit link here after deploying (steps below)_ · **Screenshot:** _add `docs/screenshot.png` after your first run_
 
+##Application Preview
+# TCO Copilot
+
+A powerful supply chain and procurement decision-making platform that blends intelligent supplier quote extraction with a deterministic Total Cost of Ownership (TCO) calculation engine.
+
+## Application Preview
+
+### 1. Supplier Quote Extraction
+![Quote Extraction](docs/screenshot-1-quotes.png)
+
+### 2. Buyer Estimates
+![Buyer Estimates](docs/screenshot-2-buyer-estimates.png)
+
+### 3. TCO Comparison and Verdict
+![TCO Verdict](docs/screenshot-3-tco-verdict.png)
+
+---
+
+## Overview
+
+Evaluating procurement options manually often leaves out hidden logistics, quality risks, and carrying costs. **TCO Copilot** streamlines this workflow by combining:
+* **AI Extraction:** Intelligently parses unstructured text quotes from multiple vendors into standardized fields while flagging missing details and gaps.
+* **Deterministic TCO Engine:** Computes exact Total Cost of Ownership without letting the LLM handle critical arithmetic, ensuring mathematical precision.
+* **Comprehensive Verdicts:** Analyzes supplier rankings, gap analysis, cost buckets, and horizon sensitivities to deliver actionable procurement recommendations.
+
+## Architecture
+
+The application is structured into three primary processing phases:
+1. **Quote Extraction Layer (LLM Parsing):** Reads unstructured supplier quotes and normalizes them into key fields (pricing, terms, lead times, MOQ, freight, packaging).
+2. **Buyer Parameters & Estimation Layer:** Accepts internal organizational inputs (demand, financial interest rates, risk metrics, inspection costs, and rejection rates) that are never shared with suppliers.
+3. **Deterministic Calculation & Sensitivity Engine:** Runs standard financial logic to evaluate Total Cost of Ownership across customizable project horizons (1–5 years) and generates detailed breakdowns of hidden costs.
+
+## Features
+
+* **Multi-Supplier Quote Comparison:** Side-by-side breakdown of Supplier A, B, and C with stated vs. missing data flags.
+* **Customizable Buyer Parameters:** Adjust annual demand, GST, cost of capital, storage costs, and horizon timelines dynamically.
+* **Hidden Cost Analysis:** Breaks down expenses beyond the basic unit price—including inbound freight, packaging, safety stock carrying costs, warranty claims, and transaction fees.
+* **Horizon & Sensitivity Modeling:** Visualizes how winning suppliers shift across 1-to-5-year timelines and handles sensitivity adjustments.
+
+
+
 ## Status (read this first)
 
 | Piece | Status |
