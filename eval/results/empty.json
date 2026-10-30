@@ -1,0 +1,381 @@
+{
+ "extractor": "empty",
+ "prompt": null,
+ "model": null,
+ "limit": null,
+ "metrics": {
+  "cases": 20,
+  "field_accuracy": 0.0,
+  "missing_flag_rate": 1.0,
+  "hallucination_rate": 0.0,
+  "evidence_verified_rate": null,
+  "case_pass_rate": 0.05,
+  "clean_pass_rate": 0.0,
+  "trap_pass_rate": 0.1
+ },
+ "scenarios": {
+  "full_ranking_agreement": 0.0,
+  "top1_agreement": 0.0,
+  "detail": [
+   {
+    "scenario": [
+     "c01",
+     "c02",
+     "c03"
+    ],
+    "agree": false,
+    "reason": "price missing in extraction"
+   },
+   {
+    "scenario": [
+     "c04",
+     "c05",
+     "c06"
+    ],
+    "agree": false,
+    "reason": "price missing in extraction"
+   },
+   {
+    "scenario": [
+     "c07",
+     "c08",
+     "c09"
+    ],
+    "agree": false,
+    "reason": "price missing in extraction"
+   },
+   {
+    "scenario": [
+     "c10",
+     "c01",
+     "c05"
+    ],
+    "agree": false,
+    "reason": "price missing in extraction"
+   },
+   {
+    "scenario": [
+     "c03",
+     "c06",
+     "c08"
+    ],
+    "agree": false,
+    "reason": "price missing in extraction"
+   }
+  ]
+ },
+ "per_case": [
+  {
+   "id": "c01",
+   "tags": [
+    "clean",
+    "formal-letter"
+   ],
+   "fields_total": 12,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c02",
+   "tags": [
+    "clean",
+    "whatsapp",
+    "hinglish"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c03",
+   "tags": [
+    "clean",
+    "table-like"
+   ],
+   "fields_total": 9,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c04",
+   "tags": [
+    "clean",
+    "formal-letter",
+    "indian-number-format"
+   ],
+   "fields_total": 14,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c05",
+   "tags": [
+    "clean",
+    "short-email"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c06",
+   "tags": [
+    "clean",
+    "hinglish"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c07",
+   "tags": [
+    "clean",
+    "formal-letter",
+    "range"
+   ],
+   "fields_total": 9,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c08",
+   "tags": [
+    "clean",
+    "bullet-list"
+   ],
+   "fields_total": 11,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c09",
+   "tags": [
+    "clean",
+    "all-inclusive"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "c10",
+   "tags": [
+    "clean",
+    "escalation",
+    "weeks"
+   ],
+   "fields_total": 10,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t01",
+   "tags": [
+    "trap",
+    "gst-ambiguity"
+   ],
+   "fields_total": 6,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t02",
+   "tags": [
+    "trap",
+    "buried-freight"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t03",
+   "tags": [
+    "trap",
+    "advance-payment"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t04",
+   "tags": [
+    "trap",
+    "missing-moq"
+   ],
+   "fields_total": 7,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t05",
+   "tags": [
+    "trap",
+    "conflicting-price"
+   ],
+   "fields_total": 5,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t06",
+   "tags": [
+    "trap",
+    "packaging-outside-price"
+   ],
+   "fields_total": 9,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t07",
+   "tags": [
+    "trap",
+    "net-terms"
+   ],
+   "fields_total": 8,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t08",
+   "tags": [
+    "trap",
+    "unit-mismatch"
+   ],
+   "fields_total": 5,
+   "fields_correct": 0,
+   "missing_total": 1,
+   "missing_flagged": 1,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t09",
+   "tags": [
+    "trap",
+    "chatter",
+    "hinglish"
+   ],
+   "fields_total": 7,
+   "fields_correct": 0,
+   "missing_total": 0,
+   "missing_flagged": 0,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": false
+  },
+  {
+   "id": "t10",
+   "tags": [
+    "trap",
+    "almost-empty"
+   ],
+   "fields_total": 0,
+   "fields_correct": 0,
+   "missing_total": 7,
+   "missing_flagged": 7,
+   "hallucinated": 0,
+   "evidence_total": 0,
+   "evidence_verified": 0,
+   "pass": true
+  }
+ ],
+ "errors": [],
+ "usage": {
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "avg_latency_s": null,
+  "runs": 0
+ }
+}

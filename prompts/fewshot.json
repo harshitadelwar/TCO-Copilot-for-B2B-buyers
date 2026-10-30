@@ -1,0 +1,398 @@
+[
+ {
+  "quote": "Dear Procurement Team,\nGreetings from Vikram Metal Works, Jalandhar. Against your RFQ we offer MS brackets at Rs. 155.00 per piece plus GST as applicable. Delivery to your plant is included in our price. MOQ is 4,000 pieces. We can supply within 15 days of PO. Payment terms: 30 days from invoice. We are ISO 9001 certified.\nRegards, S. Mehta",
+  "buyer_unit": "piece",
+  "output": {
+   "fields": {
+    "supplier_name": {
+     "value": "Vikram Metal Works",
+     "status": "stated",
+     "evidence": "Vikram Metal Works",
+     "question": ""
+    },
+    "location": {
+     "value": "Jalandhar",
+     "status": "stated",
+     "evidence": "Jalandhar",
+     "question": ""
+    },
+    "certification": {
+     "value": "ISO 9001",
+     "status": "stated",
+     "evidence": "ISO 9001 certified",
+     "question": ""
+    },
+    "price_unit": {
+     "value": "piece",
+     "status": "stated",
+     "evidence": "per piece",
+     "question": ""
+    },
+    "quoted_unit_price": {
+     "value": 155.0,
+     "status": "stated",
+     "evidence": "Rs. 155.00 per piece",
+     "question": ""
+    },
+    "price_includes_gst": {
+     "value": false,
+     "status": "stated",
+     "evidence": "plus GST as applicable",
+     "question": ""
+    },
+    "annual_price_escalation": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Is there any annual price escalation?"
+    },
+    "moq": {
+     "value": 4000,
+     "status": "stated",
+     "evidence": "MOQ is 4,000 pieces",
+     "question": ""
+    },
+    "lead_time_days": {
+     "value": 15,
+     "status": "stated",
+     "evidence": "within 15 days of PO",
+     "question": ""
+    },
+    "payment_terms_days": {
+     "value": 30,
+     "status": "stated",
+     "evidence": "30 days from invoice",
+     "question": ""
+    },
+    "freight_included": {
+     "value": true,
+     "status": "stated",
+     "evidence": "Delivery to your plant is included in our price",
+     "question": ""
+    },
+    "freight_per_order": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm freight per order."
+    },
+    "packaging_included": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Is packaging included in the Rs. 155 rate?"
+    },
+    "packaging_per_unit": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm packaging per unit."
+    },
+    "tooling_cost": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Is any tooling cost payable by the buyer?"
+    }
+   },
+   "notes": ""
+  }
+ },
+ {
+  "quote": "bhai rate bata raha hu - 133 rupay per pc, gst alag. packing ka 2 rs extra lagega per piece. gaadi ka bhada aapko dena padega. kam se kam 6 hazaar piece. maal 2 hafte me. payment 60 din.",
+  "buyer_unit": "piece",
+  "output": {
+   "fields": {
+    "supplier_name": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm supplier name."
+    },
+    "location": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm location."
+    },
+    "certification": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm certification."
+    },
+    "price_unit": {
+     "value": "piece",
+     "status": "stated",
+     "evidence": "per pc",
+     "question": ""
+    },
+    "quoted_unit_price": {
+     "value": 133.0,
+     "status": "stated",
+     "evidence": "133 rupay per pc",
+     "question": ""
+    },
+    "price_includes_gst": {
+     "value": false,
+     "status": "stated",
+     "evidence": "gst alag",
+     "question": ""
+    },
+    "annual_price_escalation": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm annual price escalation."
+    },
+    "moq": {
+     "value": 6000,
+     "status": "stated",
+     "evidence": "6 hazaar piece",
+     "question": ""
+    },
+    "lead_time_days": {
+     "value": 14,
+     "status": "inferred",
+     "evidence": "2 hafte",
+     "question": ""
+    },
+    "payment_terms_days": {
+     "value": 60,
+     "status": "stated",
+     "evidence": "payment 60 din",
+     "question": ""
+    },
+    "freight_included": {
+     "value": false,
+     "status": "stated",
+     "evidence": "gaadi ka bhada aapko dena padega",
+     "question": ""
+    },
+    "freight_per_order": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "How much is the freight per truck?"
+    },
+    "packaging_included": {
+     "value": false,
+     "status": "stated",
+     "evidence": "packing ka 2 rs extra",
+     "question": ""
+    },
+    "packaging_per_unit": {
+     "value": 2.0,
+     "status": "stated",
+     "evidence": "2 rs extra lagega per piece",
+     "question": ""
+    },
+    "tooling_cost": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm tooling cost."
+    }
+   },
+   "notes": ""
+  }
+ },
+ {
+  "quote": "Quote for MS Bracket: INR 98 per kg (GST extra). One bracket is about 0.4 kg. Min order 2 tonnes. Dispatch in 9 days. Payment 30 days. Freight extra at actuals.",
+  "buyer_unit": "piece",
+  "output": {
+   "fields": {
+    "supplier_name": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm supplier name."
+    },
+    "location": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm location."
+    },
+    "certification": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm certification."
+    },
+    "price_unit": {
+     "value": "kg",
+     "status": "stated",
+     "evidence": "per kg",
+     "question": ""
+    },
+    "quoted_unit_price": {
+     "value": null,
+     "status": "conflict",
+     "evidence": "INR 98 per kg",
+     "question": "Price is per kg but you compare per piece. What is the price per piece?"
+    },
+    "price_includes_gst": {
+     "value": false,
+     "status": "stated",
+     "evidence": "GST extra",
+     "question": ""
+    },
+    "annual_price_escalation": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm annual price escalation."
+    },
+    "moq": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm moq."
+    },
+    "lead_time_days": {
+     "value": 9,
+     "status": "stated",
+     "evidence": "Dispatch in 9 days",
+     "question": ""
+    },
+    "payment_terms_days": {
+     "value": 30,
+     "status": "stated",
+     "evidence": "Payment 30 days",
+     "question": ""
+    },
+    "freight_included": {
+     "value": false,
+     "status": "stated",
+     "evidence": "Freight extra at actuals",
+     "question": ""
+    },
+    "freight_per_order": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "What is the typical freight per truck?"
+    },
+    "packaging_included": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm packaging included."
+    },
+    "packaging_per_unit": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm packaging per unit."
+    },
+    "tooling_cost": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm tooling cost."
+    }
+   },
+   "notes": ""
+  }
+ },
+ {
+  "quote": "Hi, rate is 150 per piece, all in. 20 days delivery. We need 100% advance, goods leave 5 days after we get the money.",
+  "buyer_unit": "piece",
+  "output": {
+   "fields": {
+    "supplier_name": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm supplier name."
+    },
+    "location": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm location."
+    },
+    "certification": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm certification."
+    },
+    "price_unit": {
+     "value": "piece",
+     "status": "stated",
+     "evidence": "per piece",
+     "question": ""
+    },
+    "quoted_unit_price": {
+     "value": 150.0,
+     "status": "stated",
+     "evidence": "150 per piece",
+     "question": ""
+    },
+    "price_includes_gst": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Does the 150 'all in' include GST?"
+    },
+    "annual_price_escalation": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm annual price escalation."
+    },
+    "moq": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm moq."
+    },
+    "lead_time_days": {
+     "value": 20,
+     "status": "stated",
+     "evidence": "20 days delivery",
+     "question": ""
+    },
+    "payment_terms_days": {
+     "value": -5,
+     "status": "inferred",
+     "evidence": "100% advance, goods leave 5 days after we get the money",
+     "question": ""
+    },
+    "freight_included": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Is delivery to our plant included?"
+    },
+    "freight_per_order": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm freight per order."
+    },
+    "packaging_included": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm packaging included."
+    },
+    "packaging_per_unit": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm packaging per unit."
+    },
+    "tooling_cost": {
+     "value": null,
+     "status": "missing",
+     "evidence": "",
+     "question": "Please confirm tooling cost."
+    }
+   },
+   "notes": ""
+  }
+ }
+]

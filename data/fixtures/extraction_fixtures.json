@@ -1,0 +1,287 @@
+{
+ "9885a239baf70bea": {
+  "fields": {
+   "supplier_name": {
+    "value": "Supplier A Pvt Ltd",
+    "status": "stated",
+    "evidence": "Supplier A Pvt Ltd",
+    "question": ""
+   },
+   "location": {
+    "value": "Pune, MH",
+    "status": "stated",
+    "evidence": "Pune, MH",
+    "question": ""
+   },
+   "certification": {
+    "value": "ISO 9001",
+    "status": "stated",
+    "evidence": "ISO 9001 certification",
+    "question": ""
+   },
+   "price_unit": {
+    "value": "piece",
+    "status": "stated",
+    "evidence": "per piece",
+    "question": ""
+   },
+   "quoted_unit_price": {
+    "value": 142.0,
+    "status": "stated",
+    "evidence": "Rs. 142.00 per piece",
+    "question": ""
+   },
+   "price_includes_gst": {
+    "value": false,
+    "status": "stated",
+    "evidence": "GST extra at 18%",
+    "question": ""
+   },
+   "annual_price_escalation": {
+    "value": 0.04,
+    "status": "stated",
+    "evidence": "annual escalation of 4%",
+    "question": ""
+   },
+   "moq": {
+    "value": 5000,
+    "status": "stated",
+    "evidence": "5,000 pcs per order",
+    "question": ""
+   },
+   "lead_time_days": {
+    "value": 10,
+    "status": "stated",
+    "evidence": "10 days from PO",
+    "question": ""
+   },
+   "payment_terms_days": {
+    "value": 45,
+    "status": "stated",
+    "evidence": "45 days credit from invoice date",
+    "question": ""
+   },
+   "freight_included": {
+    "value": false,
+    "status": "stated",
+    "evidence": "transport at actuals",
+    "question": ""
+   },
+   "freight_per_order": {
+    "value": 9500,
+    "status": "stated",
+    "evidence": "Rs. 9,500 per truck load",
+    "question": ""
+   },
+   "packaging_included": {
+    "value": true,
+    "status": "stated",
+    "evidence": "standard packing is included in the rate",
+    "question": ""
+   },
+   "packaging_per_unit": {
+    "value": null,
+    "status": "missing",
+    "evidence": "",
+    "question": "Please confirm packaging per unit."
+   },
+   "tooling_cost": {
+    "value": null,
+    "status": "missing",
+    "evidence": "",
+    "question": "Is any tooling cost payable by the buyer?"
+   }
+  },
+  "notes": ""
+ },
+ "c59741f86de82f4b": {
+  "fields": {
+   "supplier_name": {
+    "value": "Supplier B Industries",
+    "status": "stated",
+    "evidence": "Supplier B Industries",
+    "question": ""
+   },
+   "location": {
+    "value": "Coimbatore, TN",
+    "status": "stated",
+    "evidence": "Coimbatore, TN",
+    "question": ""
+   },
+   "certification": {
+    "value": "ISO 9001, IATF 16949",
+    "status": "stated",
+    "evidence": "ISO 9001, IATF 16949",
+    "question": ""
+   },
+   "price_unit": {
+    "value": "piece",
+    "status": "stated",
+    "evidence": "per piece",
+    "question": ""
+   },
+   "quoted_unit_price": {
+    "value": 138.0,
+    "status": "stated",
+    "evidence": "Rs 138 per piece",
+    "question": ""
+   },
+   "price_includes_gst": {
+    "value": false,
+    "status": "stated",
+    "evidence": "+ GST @ 18%",
+    "question": ""
+   },
+   "annual_price_escalation": {
+    "value": 0.05,
+    "status": "stated",
+    "evidence": "5% per annum",
+    "question": ""
+   },
+   "moq": {
+    "value": 8000,
+    "status": "stated",
+    "evidence": "MOQ: 8,000 pcs",
+    "question": ""
+   },
+   "lead_time_days": {
+    "value": 14,
+    "status": "stated",
+    "evidence": "Lead time: 14 days",
+    "question": ""
+   },
+   "payment_terms_days": {
+    "value": 30,
+    "status": "stated",
+    "evidence": "30 days from invoice",
+    "question": ""
+   },
+   "freight_included": {
+    "value": false,
+    "status": "stated",
+    "evidence": "Freight: extra",
+    "question": ""
+   },
+   "freight_per_order": {
+    "value": 16000,
+    "status": "stated",
+    "evidence": "Rs 16,000 per consignment",
+    "question": ""
+   },
+   "packaging_included": {
+    "value": false,
+    "status": "stated",
+    "evidence": "not included",
+    "question": ""
+   },
+   "packaging_per_unit": {
+    "value": 1.2,
+    "status": "stated",
+    "evidence": "Rs 1.20 per piece",
+    "question": ""
+   },
+   "tooling_cost": {
+    "value": 150000,
+    "status": "stated",
+    "evidence": "Rs 1,50,000 payable by buyer",
+    "question": ""
+   }
+  },
+  "notes": ""
+ },
+ "ce0d2cfa78670262": {
+  "fields": {
+   "supplier_name": {
+    "value": "Supplier C Enterprises",
+    "status": "stated",
+    "evidence": "supplier c enterprises",
+    "question": ""
+   },
+   "location": {
+    "value": "Ludhiana",
+    "status": "stated",
+    "evidence": "ludhiana",
+    "question": ""
+   },
+   "certification": {
+    "value": null,
+    "status": "missing",
+    "evidence": "",
+    "question": "Does the supplier hold any quality certification?"
+   },
+   "price_unit": {
+    "value": "piece",
+    "status": "stated",
+    "evidence": "per pc",
+    "question": ""
+   },
+   "quoted_unit_price": {
+    "value": 160.0,
+    "status": "stated",
+    "evidence": "160 per pc",
+    "question": ""
+   },
+   "price_includes_gst": {
+    "value": true,
+    "status": "stated",
+    "evidence": "all inclusive of GST",
+    "question": ""
+   },
+   "annual_price_escalation": {
+    "value": 0.07,
+    "status": "stated",
+    "evidence": "price will go up 7% every year",
+    "question": ""
+   },
+   "moq": {
+    "value": 2000,
+    "status": "stated",
+    "evidence": "min order 2000 pcs",
+    "question": ""
+   },
+   "lead_time_days": {
+    "value": 21,
+    "status": "stated",
+    "evidence": "supply in 21 days",
+    "question": ""
+   },
+   "payment_terms_days": {
+    "value": 0,
+    "status": "stated",
+    "evidence": "payment against delivery (no credit)",
+    "question": ""
+   },
+   "freight_included": {
+    "value": true,
+    "status": "stated",
+    "evidence": "delivery free at your plant",
+    "question": ""
+   },
+   "freight_per_order": {
+    "value": null,
+    "status": "missing",
+    "evidence": "",
+    "question": "Please confirm freight per order."
+   },
+   "packaging_included": {
+    "value": true,
+    "status": "stated",
+    "evidence": "packing also included",
+    "question": ""
+   },
+   "packaging_per_unit": {
+    "value": null,
+    "status": "missing",
+    "evidence": "",
+    "question": "Please confirm packaging per unit."
+   },
+   "tooling_cost": {
+    "value": null,
+    "status": "missing",
+    "evidence": "",
+    "question": "Please confirm tooling cost."
+   }
+  },
+  "notes": ""
+ }
+}

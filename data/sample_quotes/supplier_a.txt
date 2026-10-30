@@ -1,0 +1,18 @@
+From: sales@supplier-a.example
+Subject: RE: RFQ - MS fabricated brackets (120,000 pcs per year)
+
+Dear Sir,
+
+Thank you for your enquiry. Supplier A Pvt Ltd, Pune, MH is pleased to quote as follows:
+
+Rate: Rs. 142.00 per piece, GST extra at 18%.
+Packing: standard packing is included in the rate.
+Freight: ex-works Pune, transport at actuals, approx. Rs. 9,500 per truck load.
+MOQ: 5,000 pcs per order.
+Delivery: 10 days from PO.
+Payment: 45 days credit from invoice date.
+Price variation: annual escalation of 4% as per contract.
+We hold ISO 9001 certification.
+
+Regards,
+Sales Desk, Supplier A Pvt Ltd
